@@ -13,6 +13,7 @@
     <module>utils</module>
     <module>strategy</module>
     <module>decorator</module>
+    <module>factory-method</module>
   </modules>
 
 
