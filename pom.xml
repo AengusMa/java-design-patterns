@@ -15,6 +15,7 @@
     <module>decorator</module>
     <module>factory-method</module>
     <module>singleton</module>
+    <module>command</module>
   </modules>
 
 
