@@ -1,0 +1,19 @@
+package com.mwl.ducks;
+
+import com.mwl.ducks.duck.DuckAdapter;
+import com.mwl.ducks.duck.MallardDuck;
+import com.mwl.ducks.turkey.Turkey;
+
+public class TurkeyTestDrive {
+
+  public static void main(String[] args) {
+    MallardDuck duck = new MallardDuck();
+    Turkey duckAdapter = new DuckAdapter(duck);
+
+    for (int i = 0; i < 10; i++) {
+      System.out.println("The DuckAdapter says...");
+      duckAdapter.gobble();
+      duckAdapter.fly();
+    }
+  }
+}

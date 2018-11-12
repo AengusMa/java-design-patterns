@@ -16,6 +16,10 @@
     <module>factory-method</module>
     <module>singleton</module>
     <module>command</module>
+    <module>adapter</module>
+    <module>facade</module>
+    <module>template-method</module>
+    <module>template-method</module>
   </modules>
 
 
