@@ -21,6 +21,7 @@
     <module>template-method</module>
     <module>template-method</module>
     <module>iterator</module>
+    <module>composite</module>
   </modules>
 
 
