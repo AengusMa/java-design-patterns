@@ -46,7 +46,6 @@ public class MatchMakingTestDrive {
     }
 
     PersonBean getOwnerProxy(PersonBean person) {
-
         return (PersonBean) Proxy.newProxyInstance(
                 person.getClass().getClassLoader(),
                 person.getClass().getInterfaces(),
@@ -54,7 +53,6 @@ public class MatchMakingTestDrive {
     }
 
     PersonBean getNonOwnerProxy(PersonBean person) {
-
         return (PersonBean) Proxy.newProxyInstance(
                 person.getClass().getClassLoader(),
                 person.getClass().getInterfaces(),
