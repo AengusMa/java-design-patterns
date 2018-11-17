@@ -24,6 +24,7 @@
     <module>composite</module>
       <module>state</module>
       <module>proxy</module>
+      <module>combining</module>
   </modules>
 
 
