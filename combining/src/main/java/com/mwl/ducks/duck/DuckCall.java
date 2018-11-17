@@ -6,6 +6,8 @@ import com.mwl.ducks.observer.Observer;
 /**
  * @author mawenlong
  * @date 2018/11/17
+ *
+ * 被观察者
  */
 public class DuckCall implements Quackable {
  private Observable observable;
