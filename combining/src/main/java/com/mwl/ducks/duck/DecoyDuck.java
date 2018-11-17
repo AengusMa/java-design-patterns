@@ -10,6 +10,7 @@ import com.mwl.ducks.observer.Observer;
  * 被观察者
  */
 public class DecoyDuck implements Quackable {
+
     private Observable observable;
 
     public DecoyDuck() {

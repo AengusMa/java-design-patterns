@@ -8,7 +8,9 @@ import java.util.Iterator;
  * @date 2018/11/17
  */
 public class Observable implements QuackObservable {
+    //观察者集合
     private ArrayList<Observer> observers = new ArrayList<Observer>();
+    //被观察者
     private QuackObservable duck;
 
     public Observable(QuackObservable duck) {
