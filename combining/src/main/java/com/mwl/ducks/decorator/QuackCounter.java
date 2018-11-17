@@ -1,6 +1,7 @@
 package com.mwl.ducks.decorator;
 
 import com.mwl.ducks.duck.Quackable;
+import com.mwl.ducks.observer.Observer;
 
 /**
  * @author mawenlong
@@ -23,6 +24,14 @@ public class QuackCounter implements Quackable {
 
     public static int getQuacks() {
         return numberOfQuacks;
+    }
+
+    public void registerObserver(Observer observer) {
+        duck.registerObserver(observer);
+    }
+
+    public void notifyObservers() {
+        duck.notifyObservers();
     }
 
     @Override
